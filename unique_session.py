@@ -1,10 +1,8 @@
 import pandas as pd
-import numpy as np
-from datetime import datetime
-from datetime import timedelta
+
 
 class User:
-    # Данные в столбце timestamp в формате YYYY-MM-DD HH-MM-SS
+    # Данные в столбце timestamp в формате YYYY-MM-DD HH:MM:SS
     # Данные в столбце session_id уникальны в рамках одного пользователя
 
 
