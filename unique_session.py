@@ -4,6 +4,8 @@ from datetime import datetime
 from datetime import timedelta
 
 class User:
+    # Данные в столбце timestamp в формате YYYY-MM-DD HH-MM-SS
+    # Данные в столбце session_id уникальны в рамках одного пользователя
 
 
     def __init__(self, df):
